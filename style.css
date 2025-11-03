@@ -342,3 +342,219 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    padding: 12px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    font-size: 0.85rem;
+  }
+  
+  .navbar li {
+    margin: 0;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 100px 5%;
+    min-height: auto;
+  }
+  
+  .glass {
+    padding: 30px 20px;
+    margin: 30px auto;
+    max-width: 100%;
+  }
+  
+  /* Home */
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .home h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .typing {
+    font-size: 1rem;
+    height: 20px;
+  }
+  
+  /* About */
+  .about-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    min-width: 100%;
+  }
+  
+  /* Skills */
+  .skills {
+    gap: 15px;
+  }
+  
+  .skills span {
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+  
+  .skills span i {
+    font-size: 1.2rem;
+  }
+  
+  /* Projects */
+  .projects div {
+    padding: 20px 15px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+  }
+  
+  .projects div b {
+    font-size: 1rem;
+  }
+  
+  /* Resume */
+  .resume-card {
+    padding: 35px 25px;
+    max-width: 100%;
+  }
+  
+  .resume-card i.fa-file-pdf {
+    font-size: 3.5rem;
+  }
+  
+  .resume-card h3 {
+    font-size: 1.2rem;
+  }
+  
+  .resume-card p {
+    font-size: 0.9rem;
+  }
+  
+  .btn {
+    padding: 10px 25px;
+    font-size: 0.95rem;
+  }
+  
+  /* Contact */
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .contact-card {
+    min-width: 100%;
+    max-width: 320px;
+    padding: 30px 20px;
+  }
+  
+  .contact-card i {
+    font-size: 3rem;
+  }
+  
+  .contact-card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .contact-card p {
+    font-size: 0.9rem;
+  }
+  
+  /* Footer */
+  footer {
+    font-size: 0.8rem;
+    padding: 15px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+  
+  .logo {
+    font-size: 1rem;
+  }
+  
+  .navbar ul {
+    gap: 8px;
+    font-size: 0.75rem;
+  }
+  
+  .section {
+    padding: 80px 4%;
+  }
+  
+  .glass {
+    padding: 25px 15px;
+    margin: 20px auto;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .home h2 {
+    font-size: 1.2rem;
+  }
+  
+  .typing {
+    font-size: 0.9rem;
+  }
+  
+  .about-content p {
+    font-size: 0.85rem;
+  }
+  
+  .skills span {
+    padding: 10px 15px;
+    font-size: 0.85rem;
+  }
+  
+  .projects div {
+    padding: 15px 12px;
+    font-size: 0.85rem;
+  }
+  
+  .projects div b {
+    font-size: 0.95rem;
+  }
+  
+  .resume-card {
+    padding: 30px 20px;
+  }
+  
+  .resume-card i.fa-file-pdf {
+    font-size: 3rem;
+  }
+  
+  .contact-card {
+    padding: 25px 15px;
+  }
+  
+  .contact-card i {
+    font-size: 2.5rem;
+  }
+}
