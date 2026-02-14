@@ -558,3 +558,42 @@ footer {
     font-size: 2.5rem;
   }
 }
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.cert-item {
+  background: rgba(15, 15, 15, 0.7);
+  border: 2px solid #00aaff;
+  border-radius: 15px;
+  padding: 25px;
+  transition: 0.3s;
+  text-align: left;
+}
+
+.cert-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(0, 170, 255, 0.4);
+}
+
+.cert-item h3 {
+  color: #00aaff;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.cert-item p {
+  color: #9ad8ff;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.cert-item span {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 0.85rem;
+  color: #cccccc;
+}
